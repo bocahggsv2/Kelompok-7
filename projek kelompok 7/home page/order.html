@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Order</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="order.css">
+
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light  px-lg-3 py-lg-2 shadow-sm sticky-top " >
+    <div class="container-fluid">
+      <a href="" > <img src="img/logo.png"></a>
+      -->
+          <!-- <div style="display: flex; margin-left: 830px; color: #fff ; margin-bottom: 5px; font-size: 25px;"><i class="fa-solid fa-user"></i>
+                        </div>
+                        <div>
+                            <p style="margin:0;text-transform:capitalize; color: #fff; "><?php echo $_SESSION['username']; ?></p>
+                            <span style="margin:0;text-transform:capitalize; color: #fff; margin-left: 5px"><b><?php echo $_SESSION['level']; ?></span></b>
+                        </div>
+                    </div>
+                    </center>
+                </div> -->
+                <span style="margin: 20px; color: #fff;">|</span>
+                
+                <!-- <a href="logout.php" style="color: #fff ; text-decoration: none; margin-right: 30px; ">
+                    <span ><b>LOGOUT<i style="color: #E74C3C ; font-size: 20px; margin-top: 5px;" class="fa fa-sign-out" aria-hidden="true"></i> -->
+
+</span></b>
+                    
+                </a>
+      
+    </div>
+  </div>
+</nav>
+
+<!-- <div class="container-fluid">
+  
+    <div class="swiper swiper-container" style="height:70vh;">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/bg1.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/bg2.jpg" class="w-100 d-block">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/bg3.jpg" class="w-100 d-block">
+        </div>
+      </div>
+      
+    </div>
+
+</div> -->
+
+<BR><BR>
+
+<div class="container">
+  <center><div class="brand-title">Order BarberShop</div></center>
+  <div class="inputs" >
+
+    <form action ="" method="POST" enctype="multipart/form-data">
+    <table>
+    <tr>
+
+    <td>
+    <label style="margin-left: 100px;">Nama Pelanggan</label>
+    <input class="sa" style="margin-left: 100px; width: 350px;" type="text" name="NIS" id="NIS" required
+                   placeholder="Nama Pelanggan . . . ">
+    </td>
+    <td>
+    <label style="margin-left: 100px;">Nomor Telepon</label>  
+    <input class="sa" style="width: 350px; margin-left: 100px;" type="text" name="NAMA" id="NAMA" required
+                    placeholder="Nomor Telepon . . .">
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+                            <select name="NamaCukuran" style="margin-left: 100px; width: 350px;" id="KELAS" required>
+                            <option disabled="disabled" selected="selected">~ Nama Potongan dan Harga ~</option>
+                            <option style="color: black;">Curly Crop Cut (Rp 55.000,00)</option>
+                            <option style="color: black;">French Crop  (Rp 42.000,00)</option>
+                            <option style="color: black;">Quiff  (Rp 70.000,00)</option>
+                            <option style="color: black;">Buzz Cut  (Rp 50.000,00)</option>
+                            <option style="color: black;">Bowl Cut (Rp 50.000,00)</option>
+
+                            </select>
+                            <div class="select-dropdown"></div>
+                            
+    </td>
+    <td>
+                            <select name="JURUSAN" style="  color: white; margin-left: 100px; width: 350px;" id="JURUSAN" required>
+                            <option disabled="disabled" selected="selected">~ Nama Pencukur Rambut  ~</option>
+                            <option style="color: black;">Robani</option>
+                            <option style="color: black;">Maelati</option>
+                            <option style="color: black;">Dian</option>
+                            <option style="color: black;">Amelia</option>
+                            <option style="color: black;">Dinda</option>
+                            <option style="color: black;">Layla</option>
+                            </select>
+                            <div class="select-dropdown"></div>
+    </td>
+    
+  </tr>
+    <tr>
+    <td>
+      <label style="margin-left: 100px;">Tanggal Pembayaran</label>
+    <input class="sa" style="margin-left: 100px; width: 350px"type="date" name="TANGGAL_PEMBAYARAN" id="TANGGAL_PEMBAYARAN" required
+         placeholder="Tanggal Pembayaran . . .">
+    </td>
+    <td >
+      <!-- <label style="margin-left: 100px;">Bukti Pembayaran</label>
+    <input class="sa" style=" padding-block: 10px; margin-left: 100px; width: 350px" type="file" name="BUKTI_PEMBAYARAN" id="BUKTI_PEMBAYARAN" required>
+    </td> -->
+  </tr>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br> 
+
+    </table>
+    <div class="btn">
+      <li><a href="konfirmasipembayaran.html">Konfirmasi</a></li>
+</div>
+
+
+ 
+
+ <br/>
+ <br/>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script>
+      var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        effect: "fade",
+      });
+    </script>
+
+
+</body>
+</html>

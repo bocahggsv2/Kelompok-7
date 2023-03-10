@@ -1,0 +1,195 @@
+*{
+    font-family: 'Poppins', sans-serif;  
+  }
+
+  .h-font{
+       font-family: 'Merienda', cursive;
+
+  }
+
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+input {
+caret-color: red;
+}
+
+
+
+.container {
+position: relative;
+/*  width: 500px;*/
+/*  height: 550px;*/
+border-radius: 10px;
+padding: 35px;
+box-sizing: border-box;
+background-image: url(img/bck.jpg);   
+background-size: cover;
+margin-top:5px;
+}
+
+.brand-logo {
+height: 80px;
+width: 80px;
+background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+margin: auto;
+border-radius: 50%;
+box-sizing: border-box;
+}
+
+.brand-title {
+/*  margin-top: 10px;*/
+font-weight: 900;
+font-size: 2.8rem;
+color: white;
+
+letter-spacing: 1px;
+}
+
+.inputs {
+text-align: left;
+margin-top: 30px;
+}
+
+input {
+display: block;
+width: 100%;
+padding: 0;
+border: none;
+outline: none;
+box-sizing: border-box;
+}
+
+input placeholder {
+color: white;
+}
+
+input, select {
+/*  background: transparent;*/
+display: block;
+  height: 50px;
+  color: white;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  border: 1px solid white;
+
+}
+
+button {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
+
+button:hover {
+box-shadow: none; 
+}
+
+/*a {
+position: absolute;
+font-size: 8px;
+bottom: 4px;
+right: 4px;
+text-decoration: none;
+color: black;
+background: yellow;
+border-radius: 10px;
+padding: 2px;
+}*/
+label {
+margin-bottom: 4px;
+color: #fff;
+font-weight: bold;
+font-size: 18px;
+}
+
+label:nth-of-type(2) {
+margin-top: 12px;
+}
+h1 {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+input.placeholder{
+color:  #fff;
+}
+
+form{
+
+margin-top: -50px;
+}
+
+nav{
+background-color: #282A3A;
+}
+
+.bg-white{
+background-color: #035757;
+}
+
+.sa, select{
+box-shadow: rgb(0 0 0 / 16%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+</style>
+</head>
+
+<body>
+<!-- <nav class="navbar navbar-expand-lg navbar-light  px-lg-3 py-lg-2 shadow-sm sticky-top " >
+  <div class="container-fluid">
+    <a href="" > <img src="img/logo.png"></a>
+    -->
+        <!-- <div style="display: flex; margin-left: 830px; color: #fff ; margin-bottom: 5px; font-size: 25px;"><i class="fa-solid fa-user"></i>
+                      </div>
+                      <div>
+                          <p style="margin:0;text-transform:capitalize; color: #fff; "><?php echo $_SESSION['username']; ?></p>
+                          <span style="margin:0;text-transform:capitalize; color: #fff; margin-left: 5px"><b><?php echo $_SESSION['level']; ?></span></b>
+                      </div>
+                  </div>
+                  </center>
+              </div> -->
+              <span style="margin: 20px; color: #fff;">|</span>
+              
+              <!-- <a href="logout.php" style="color: #fff ; text-decoration: none; margin-right: 30px; ">
+                  <span ><b>LOGOUT<i style="color: #E74C3C ; font-size: 20px; margin-top: 5px;" class="fa fa-sign-out" aria-hidden="true"></i> -->
+
+</span></b>
+                  
+              </a>
+    
+  </div>
+</div>
+</nav>
+
+<!-- <div class="container-fluid">
+
+  <div class="swiper swiper-container" style="height:70vh;">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/bg1.jpg" class="w-100 d-block">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/bg2.jpg" class="w-100 d-block">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/bg3.jpg" class="w-100 d-block">
+      </div>
+    </div>
+    
+  </div>
+
+</div> -->
